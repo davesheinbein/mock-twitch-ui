@@ -1,8 +1,8 @@
-# **Twitch Mock UI Website**
+# **Mock Twitch UI Website**
 
 ### Click the link to view the website
 
-[Twitch Mock UI Website](https://mock-twitch-ui.web.app/)
+[Mock Twitch UI Website](https://mock-twitch-ui.web.app/)
 
 ### About
 
