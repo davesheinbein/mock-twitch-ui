@@ -1,0 +1,76 @@
+.stream {
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stream .stream__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stream .stream__container .stream__status {
+  width: 400px;
+  height: 295px;
+  background-color: #1f1f23;
+  margin-right: 30px;
+}
+
+.stream .stream__container .stream__status .stream__statusContainer {
+  margin: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 245px;
+}
+
+.stream .stream__container .stream__status .stream__statusContainer .stream__statusContainerTop {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.stream .stream__container .stream__status .stream__statusContainer .stream__statusContainerTop .stream__statusIndicator {
+  background-color: #ffffff;
+  color: #1f1f23;
+  border-radius: 8px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 10px;
+}
+
+.stream .stream__container .stream__status .stream__statusContainer .stream__statusContainerTop > h2 {
+  font-size: 35px;
+}
+
+.stream .stream__container .stream__status .stream__statusInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stream .stream__container .stream__status .stream__statusInfo > i {
+  margin-right: 20px;
+}
+
+.stream .stream__container .stream__status .stream__videoEmbed {
+  height: 295px;
+  width: 500px;
+}
+/*# sourceMappingURL=Stream.css.map */

@@ -1,4 +1,10 @@
 * {
   color: #ffffff;
 }
+
+.app .app__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=App.css.map */

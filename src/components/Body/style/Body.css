@@ -1,0 +1,17 @@
+.body {
+  background-color: #00a2ff;
+  background-image: url(../../../images/quote.png);
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.body .body__left {
+  width: 96.5%;
+}
+/*# sourceMappingURL=Body.css.map */

@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=Channel.css.map */
+.channel {
+  cursor: pointer;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.channel:hover {
+  background-color: #25252c;
+}
+
+.channel .channel__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.channel .channel__details > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 5px;
+  width: 40px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=Channel.css.map */

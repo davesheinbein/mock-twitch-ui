@@ -1,0 +1,25 @@
+.item {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-right: 20px;
+	& > iframe {
+	}
+	.item__details {
+		display: flex;
+		margin-top: 25px;
+		& > img {
+			object-fit: contain;
+			height: 60px;
+			margin-right: 10px;
+		}
+		.item__detailsText {
+			& > h4 {
+			}
+			& > p {
+			}
+		}
+	}
+}
